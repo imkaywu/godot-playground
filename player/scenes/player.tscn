@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt3j3djgh4v0g"]
+
+[ext_resource type="Script" path="res://scenes/player.gd" id="1_8pvcw"]
+[ext_resource type="Texture2D" uid="uid://peljmm6rrk2y" path="res://assets/Soldier.png" id="1_eid5o"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_8pvcw")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_eid5o")
+hframes = 9
+vframes = 7
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
