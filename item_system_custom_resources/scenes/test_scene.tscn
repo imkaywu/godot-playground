@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dig7c1c54x23b"]
+
+[ext_resource type="PackedScene" uid="uid://bbqqyokomb548" path="res://scenes/throwing_sword.tscn" id="2_o3n07"]
+[ext_resource type="PackedScene" uid="uid://2yscir6x2svb" path="res://scenes/player.tscn" id="2_ve5i2"]
+
+[node name="TestScene" type="Node2D"]
+position = Vector2(524, 312)
+scale = Vector2(5, 5)
+
+[node name="Player" parent="." instance=ExtResource("2_ve5i2")]
+position = Vector2(-44, 4.8)
+
+[node name="ThrowingSword" parent="." instance=ExtResource("2_o3n07")]

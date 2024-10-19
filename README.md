@@ -2,8 +2,10 @@
 
 | Project           | Tutorial |
 | :---------------- | :------: |
-| TileMap           | [How to use TileMap in Godot 4.2 | Auto Tiles and Animated TileSet](https://www.youtube.com/watch?v=-9jiQGRbE0g) |
 | Player Animation | [2D Godot 4.1 RPG - 2 - Player animations](https://www.youtube.com/watch?v=sg9A67SeaQE) |
+| TileMap           | [How to use TileMap in Godot 4.2 | Auto Tiles and Animated TileSet](https://www.youtube.com/watch?v=-9jiQGRbE0g) |
+| Item System w/ Custom Resources | [Item System using Custom Resources - Godot
+4](https://www.youtube.com/watch?v=h90B5vD6noM&t=3s) |
 
 ## Game systems to built
 1. Player movement
