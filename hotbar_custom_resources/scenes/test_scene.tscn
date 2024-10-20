@@ -1,0 +1,41 @@
+[gd_scene load_steps=11 format=3 uid="uid://7v4oo034wrm2"]
+
+[ext_resource type="PackedScene" uid="uid://drgrxq58ubtbr" path="res://scenes/player.tscn" id="1_402lu"]
+[ext_resource type="PackedScene" uid="uid://b33pbptwmrlcq" path="res://scenes/abstract_item.tscn" id="2_udi5n"]
+[ext_resource type="Resource" uid="uid://b6sfkrdj6vhd" path="res://resources/items/sword.tres" id="3_re3qr"]
+[ext_resource type="Resource" uid="uid://c5autpsd3ngii" path="res://resources/skills/fire.tres" id="4_mw4hc"]
+[ext_resource type="Resource" uid="uid://bvxmsprpgrs1w" path="res://resources/items/scythe.tres" id="5_8op1o"]
+[ext_resource type="Resource" uid="uid://dv8n23h61cd30" path="res://resources/skills/energy.tres" id="6_3lwku"]
+[ext_resource type="Resource" uid="uid://cr5d5rcalhvcj" path="res://resources/items/mace.tres" id="7_ew1r6"]
+[ext_resource type="Resource" uid="uid://cdgpruatrqf41" path="res://resources/skills/ki.tres" id="8_qgrju"]
+[ext_resource type="Resource" uid="uid://dcl83tfi3q3hd" path="res://resources/items/mana_potion.tres" id="9_reyh0"]
+[ext_resource type="Resource" uid="uid://c2cewsvn0e4kw" path="res://resources/skills/mana.tres" id="10_q5knj"]
+
+[node name="TestScene" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_402lu")]
+position = Vector2(284, 289)
+
+[node name="AbstractItem" parent="." instance=ExtResource("2_udi5n")]
+position = Vector2(280, 443)
+scale = Vector2(4, 4)
+item = ExtResource("3_re3qr")
+skill = ExtResource("4_mw4hc")
+
+[node name="AbstractItem2" parent="." instance=ExtResource("2_udi5n")]
+position = Vector2(456, 438)
+scale = Vector2(4, 4)
+item = ExtResource("5_8op1o")
+skill = ExtResource("6_3lwku")
+
+[node name="AbstractItem3" parent="." instance=ExtResource("2_udi5n")]
+position = Vector2(636, 440)
+scale = Vector2(4, 4)
+item = ExtResource("7_ew1r6")
+skill = ExtResource("8_qgrju")
+
+[node name="AbstractItem4" parent="." instance=ExtResource("2_udi5n")]
+position = Vector2(808, 438)
+scale = Vector2(4, 4)
+item = ExtResource("9_reyh0")
+skill = ExtResource("10_q5knj")

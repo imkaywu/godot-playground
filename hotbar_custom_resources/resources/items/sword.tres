@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://b6sfkrdj6vhd"]
+
+[ext_resource type="Script" path="res://scenes/item.gd" id="1_ter2c"]
+[ext_resource type="Texture2D" uid="uid://dogavmklacppe" path="res://assets/tile006.png" id="2_e6ayw"]
+
+[resource]
+script = ExtResource("1_ter2c")
+texture = ExtResource("2_e6ayw")
+name = "Sword"
+type = "Weapon"
+description = "Does slash damage"

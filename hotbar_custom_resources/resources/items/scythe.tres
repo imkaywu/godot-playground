@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://bvxmsprpgrs1w"]
+
+[ext_resource type="Script" path="res://scenes/item.gd" id="1_hjsmj"]
+[ext_resource type="Texture2D" uid="uid://brof1uv5a27vi" path="res://assets/tile017.png" id="2_5x4wr"]
+
+[resource]
+script = ExtResource("1_hjsmj")
+texture = ExtResource("2_5x4wr")
+name = "Scythe"
+type = "Weapon"
+description = "Does slash damage"

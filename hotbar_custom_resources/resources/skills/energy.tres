@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Skill" load_steps=2 format=3 uid="uid://dv8n23h61cd30"]
+
+[ext_resource type="Script" path="res://skill.gd" id="1_o3o4d"]
+
+[resource]
+script = ExtResource("1_o3o4d")
+name = "Energy"
+description = ""
+mana = 50.0

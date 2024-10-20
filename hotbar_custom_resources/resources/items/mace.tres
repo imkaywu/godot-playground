@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Item" load_steps=3 format=3 uid="uid://cr5d5rcalhvcj"]
+
+[ext_resource type="Script" path="res://scenes/item.gd" id="1_qp3ej"]
+[ext_resource type="Texture2D" uid="uid://bkpnnddeqcyhm" path="res://assets/tile030.png" id="2_spr81"]
+
+[resource]
+script = ExtResource("1_qp3ej")
+texture = ExtResource("2_spr81")
+name = "Mace"
+type = "Weapon"
+description = "Does blunt damage"
