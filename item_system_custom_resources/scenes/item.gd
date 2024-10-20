@@ -15,5 +15,6 @@ var rarity : String = "Common"
 
 signal item_used
 
+
 func use_item():
 	item_used.emit()

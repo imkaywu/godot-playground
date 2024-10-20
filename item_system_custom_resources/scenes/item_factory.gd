@@ -1,6 +1,5 @@
 extends Node2D
 
-
 var cache : Dictionary = {}
 
 @export_dir var item_folder

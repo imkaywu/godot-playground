@@ -5,6 +5,7 @@ class_name AbstractItem
 @onready var collision: CollisionShape2D = $Area2D/CollisionShape2D
 @onready var player = get_tree().current_scene.find_child("Player")
 
+
 var item : Item = null:
 	set(value):
 		item = value
@@ -19,7 +20,6 @@ func _ready():
 
 func use_item():
 	print("item used")
-
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	if body is Player:
