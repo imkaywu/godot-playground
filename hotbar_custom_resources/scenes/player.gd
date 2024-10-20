@@ -12,5 +12,8 @@ func _physics_process(delta):
 func play_fx(skill):
 	fx.play(skill.name)
 
-func add_item(item, skill):
+func add_item(item, skill): 
 	hotbar.add_item(item, skill)
+
+func has_empty_slot():
+	return find_child("Weapons").is_available()

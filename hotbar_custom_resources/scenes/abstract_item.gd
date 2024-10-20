@@ -11,7 +11,8 @@ func _ready():
 		texture = item.texture
 
 func _on_player_entered(body: Node2D):
-	call_deferred("reparent", body.find_child("Weapons"))
-	position = body.position
-	body.add_item(item, skill)
-	collision.call_deferred("set_disabled", true)
+	if body.has_empty_slot():
+		call_deferred("reparent", body.find_child("Weapons"))
+		position = body.position
+		body.add_item(item, skill)
+		collision.call_deferred("set_disabled", true)

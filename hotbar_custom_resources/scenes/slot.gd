@@ -1,4 +1,5 @@
 extends Button
+class_name Slot
 
 @onready var player = get_tree().current_scene.find_child("Player")
 

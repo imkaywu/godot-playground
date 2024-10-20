@@ -3,6 +3,7 @@ extends HBoxContainer
 
 @onready var slots = get_children()
 signal index(i : int)
+var new_index : int = 0
 
 var curr_index : int:
 	set(value):
@@ -11,7 +12,8 @@ var curr_index : int:
 		set_focus()
 
 func _ready():
-	curr_index = 0
+	get_child(0).grab_focus()
+	get_child(0).set_process_input(true)
 
 func reset_focus():
 	for slot in slots:
@@ -33,4 +35,5 @@ func add_item(item, skill):
 		if !slot.item:
 			slot.item = item
 			slot.skill = skill
+			new_index = slot.get_index()
 			return

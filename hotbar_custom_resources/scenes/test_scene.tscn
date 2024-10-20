@@ -39,3 +39,9 @@ position = Vector2(808, 438)
 scale = Vector2(4, 4)
 item = ExtResource("9_reyh0")
 skill = ExtResource("10_q5knj")
+
+[node name="AbstractItem5" parent="." instance=ExtResource("2_udi5n")]
+position = Vector2(980, 438)
+scale = Vector2(4, 4)
+item = ExtResource("9_reyh0")
+skill = ExtResource("10_q5knj")
